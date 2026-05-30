@@ -51,6 +51,19 @@ O app não tenta substituir o AnyDesk. Ele só entrega a camada que ficou faltan
 
 O IAnyPeek grava um arquivo `IAnyPeek/address-book.json` dentro do serviço escolhido. A sincronização real é feita pelo app de nuvem que já está instalado no sistema.
 
+## 📦 Instalação
+
+1. Baixe o `.app` ou `.dmg` da página de [Releases](https://github.com/fredwilliamtjr/IAnyPeek/releases)
+2. Mova o `IAnyPeek.app` para a pasta **Aplicativos**
+
+> **macOS — liberar o app na primeira abertura.** Como o app não é notarizado pela Apple, ao baixá-lo da internet o macOS pode bloquear com a mensagem *"não foi possível verificar se está livre de malware"*. Depois de mover o app para a pasta **Aplicativos**, rode no Terminal:
+>
+> ```bash
+> xattr -dr com.apple.quarantine "/Applications/IAnyPeek.app"
+> ```
+>
+> Pronto — agora é só abrir normalmente. Alternativa pela interface: **Ajustes do Sistema → Privacidade e Segurança → Abrir Mesmo Assim**.
+
 ## 🧱 Arquitetura
 
 ```
