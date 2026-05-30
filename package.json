@@ -1,6 +1,6 @@
 {
   "name": "ianypeek",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Catálogo sincronizável de endereços AnyDesk para macOS e Windows.",
   "main": "src/main.js",
   "author": "Fred William",
