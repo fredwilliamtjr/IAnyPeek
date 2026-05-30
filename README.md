@@ -17,6 +17,12 @@
 
 ---
 
+<p align="center">
+  <img src="docs/screenshot.png" width="760" alt="IAnyPeek — menu rápido na barra e janela de configurações">
+</p>
+
+---
+
 ## 🧭 O problema
 
 AnyDesk e TeamViewer continuam ótimos para acesso remoto, mas as contas gratuitas ficaram limitadas demais para uma necessidade básica: manter uma lista pequena de máquinas próprias, sincronizada entre computadores, e abrir uma conexão rapidamente.
