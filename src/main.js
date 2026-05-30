@@ -18,6 +18,10 @@ let syncInProgress = false;
 let pendingWriteToCurrentProvider = false;
 
 function boot() {
+  if (process.platform === 'darwin' && app.dock) {
+    app.dock.hide();
+  }
+
   settings = loadSettings();
   ensureBookFile();
   loadBook();
