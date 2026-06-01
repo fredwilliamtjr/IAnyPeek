@@ -19,7 +19,8 @@ const elements = {
   reload: document.getElementById('reload'),
   reloadIcon: document.getElementById('reload-icon'),
   reloadLabel: document.getElementById('reload-label'),
-  syncNote: document.getElementById('sync-note')
+  syncNote: document.getElementById('sync-note'),
+  appVersion: document.getElementById('app-version')
 };
 
 async function init() {
@@ -61,6 +62,7 @@ function bindEvents() {
 function render(nextState) {
   state = nextState;
   elements.launchAtLogin.checked = Boolean(state.settings.launchAtLogin);
+  elements.appVersion.textContent = `IAnyPeek ${state.settings.appVersion}`;
   renderSyncButton();
   renderSyncNote();
   renderCloudServices();

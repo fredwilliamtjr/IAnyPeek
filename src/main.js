@@ -523,6 +523,7 @@ function getState() {
   return {
     book: addressBook,
     settings: {
+      appVersion: app.getVersion(),
       syncFilePath: currentSyncFile,
       launchAtLogin: settings.launchAtLogin,
       syncInProgress,

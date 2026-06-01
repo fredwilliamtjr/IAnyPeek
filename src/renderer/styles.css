@@ -216,6 +216,13 @@ select {
   justify-self: center;
 }
 
+.app-version {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.3;
+  opacity: 0.75;
+}
+
 .content {
   min-width: 0;
   padding: 26px;
